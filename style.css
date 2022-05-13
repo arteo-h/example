@@ -1,0 +1,63 @@
+.header {
+  background-color: lightgray;
+  color: teal;
+}
+
+.navigation {
+  justify-content: flex-end;
+  background-color: lightgray;
+}
+
+.navigation a {
+  text-decoration: none;
+  padding: 12px 8px;
+  color: teal;
+}
+
+.navigation a:hover {
+  background-color: teal;
+  color: lightgray;
+}
+
+.content {
+  padding: 15px;
+}
+
+.content .col {
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.content .col:not(:last-child) {
+  margin-right: 8px;
+}
+
+.btn-primary {
+  background-color: teal;
+  color: lightgray;
+}
+
+.btn-warning {
+  background-color: tomato;
+  color: lightgray;
+}
+
+.input-primary {
+  padding: 8px;
+  border: 2px solid teal;
+  border-radius: 4px;
+}
+
+.input-primary:invalid {
+  border: 2px solid tomato;
+}
+
+.elevate-5 {
+  box-shadow: 0 10px 15px -10px rgba(0, 0, 0, 0.4);
+}
+
+.elevate-10 {
+  box-shadow: 0 20px 25px -20px rgba(0, 0, 0, 0.8);
+}
+
+/*# sourceMappingURL=style.css.map */

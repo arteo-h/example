@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="zara;shop;university">
+    <title>Arteu Hasanaj</title>
+
+    <link rel="icon" href="./assets/ico.png">
+    <link rel="stylesheet" href="./common.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="row header">
+        <div class="col">
+            <h1>Heading</h1>
+        </div>
+    </div>
+
+    <div class="row navigation">
+        <form method="get">
+            <input class="input-primary" type="search" placeholder="Search anything" name="search">
+            <button class="btn btn-primary" type="submit">Search</button>
+        </form>
+        <a href="#">Login</a>
+        <a href="#">Register</a>
+    </div>
+
+    <div class="row content">
+        <div class="col elevate-5">
+            <h3>Article</h3>
+            <img src="./assets/image_1.jpg" alt="">
+            <button class="btn btn-primary">View</button>
+        </div>
+        <div class="col elevate-10">
+            <h3>Article</h3>
+            <video controls muted width="300px">
+                <source src="./assets/happyfit2.mp4">
+            </video>
+            <button class="btn btn-primary">View</button>
+        </div>
+        <div class="col">
+            <form method="post">
+                <div>
+                    <label for="name">Name</label>
+                    <input id="name"
+                           class="input-primary"
+                           type="text"
+                           name="name"
+                           required
+                           pattern="[A-Z][a-z]+">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="lastName">Surname</label>
+                    <input id="lastName"
+                           class="input-primary"
+                           type="text"
+                           name="lastName"
+                           required
+                           pattern="[A-Z][a-z]+">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="bDay">Birth day</label>
+                    <input id="bDay" class="input-primary" type="date" name="bDay" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="age">Age</label>
+                    <input id="age"
+                           class="input-primary"
+                           type="number"
+                           name="age"
+                           required
+                           min="18">
+                </div>
+
+                <br>
+
+                <button class="btn btn-primary" type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

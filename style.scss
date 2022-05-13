@@ -1,0 +1,59 @@
+@import "./theme";
+
+.header {
+  background-color: $secondary;
+  color: $primary;
+}
+
+.navigation {
+  justify-content: flex-end;
+  background-color: $secondary;
+}
+
+.navigation a {
+  text-decoration: none;
+  padding: 12px 8px;
+  color: $primary;
+}
+
+.navigation a:hover {
+  background-color: $primary;
+  color: $secondary;
+}
+.content {
+  padding: 15px;
+}
+
+.content .col {
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.content .col:not(:last-child) {
+  margin-right: 8px;
+}
+.btn-primary {
+  background-color: $primary;
+  color: $secondary;
+}
+.btn-warning {
+  background-color: $warn;
+  color: $secondary;
+}
+
+.input-primary {
+  padding: 8px;
+  border: 2px solid $primary;
+  border-radius: 4px;
+}
+
+.input-primary:invalid {
+  border: 2px solid $warn;
+}
+
+.elevate-5 {
+  @include elevate(black, 10);
+}
+.elevate-10 {
+  @include elevate(black, 20);
+}
